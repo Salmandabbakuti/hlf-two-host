@@ -1,4 +1,4 @@
-## Basic Network Config
+**This Repository utilizes ```fabric-samples/basic-network```**
 
 ### Steps
  
