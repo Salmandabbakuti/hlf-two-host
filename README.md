@@ -21,7 +21,7 @@
  
   4. Start Network with ```./start.sh```
   
-  5. Copy ```crypto-config``` directory to second machine's project  ```host2/```sub-directory
+  5. Copy ```crypto-config``` directory to second machine's project directory
   
   6. Modify ```docker-compose-peer2.yml``` file ```extra-hosts``` section with first host IP Address
   
