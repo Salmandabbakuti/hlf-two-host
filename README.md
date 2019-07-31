@@ -5,7 +5,7 @@
  1. export fabric-samples ```bin``` directory to path
  
  ```
- export PATH= ~/fabric-samples/bin:$PATH
+ export PATH= $PWD/bin:$PATH    #execute it in fabric-samples directory
  ```
  2. Run ```$ ./generate.sh``` to generate crypto-matirials and genesis block
  
