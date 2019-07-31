@@ -2,10 +2,14 @@
 
 ### Steps
  
- 1. export fabric-samples ```bin``` directory to path
+ 1. Clone Repository and export  ```bin``` directory to path
  
  ```
- export PATH= $PWD/bin:$PATH    #execute it in fabric-samples directory
+ git clone https://github.com/Salmandabbakuti/hlf-two-host.git
+ 
+ cd hlf-two-host
+ 
+ export PATH= $PWD/bin:$PATH
  ```
  2. Run ```$ ./generate.sh``` to generate crypto-matirials and genesis block
  
