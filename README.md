@@ -9,7 +9,7 @@
  
  cd hlf-two-host
  
- export PATH= $PWD/bin:$PATH
+ export PATH=$PWD/bin:$PATH
  ```
  2. Run ```$ ./generate.sh``` to generate crypto-matirials and genesis block
  
