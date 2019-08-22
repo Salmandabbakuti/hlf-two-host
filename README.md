@@ -14,7 +14,7 @@
  2. Run ```$ ./generate.sh``` to generate crypto-matirials and genesis block
  
  
- 3. Modifying ca Container keyfile and peer2 IP address in ```docker-compose.yml```
+ 3. Modifying ca Container keyfile and peer2 IP address in ```docker-compose.yml```(Note: Automatically Adds via shell during first run)
    
  ```
     - FABRIC_CA_SERVER_CA_KEYFILE=/etc/hyperledger/fabric-ca-server-config/<New KeyFile>  #can be found in crypto-config/peerOrganizations/org1.example.com/ca/ directory
