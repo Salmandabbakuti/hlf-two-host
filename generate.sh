@@ -39,3 +39,16 @@ if [ "$?" -ne 0 ]; then
   echo "Failed to generate anchor peer update for Org1MSP..."
   exit 1
 fi
+
+#Setting Up your CA Container
+CURRENT_DIR=$PWD
+cd crypto-config/peerOrganizations/org1.example.com/ca/
+PRIV_KEY=$(ls *_sk)
+cd "$CURRENT_DIR"
+sed -i "s/CA_PRIVATE_KEY/${PRIV_KEY}/g" docker-compose.yml
+
+read -p "Enter Your Second Machine IP: " IP_ADDRESS
+
+sed -i "s/Second_Machine_IP/${IP_ADDRESS}/g" docker-compose.yml
+
+echo 'All Done..Bye..'
