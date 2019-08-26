@@ -7,7 +7,7 @@
  ```
  git clone https://github.com/Salmandabbakuti/hlf-twohost.git
  
- cd hlf-two-host
+ cd hlf-twohost
  
  export PATH=$PWD/bin:$PATH
  ```
