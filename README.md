@@ -5,7 +5,7 @@
  1. Clone Repository and export  ```bin``` directory to path
  
  ```
- git clone https://github.com/Salmandabbakuti/hlf-two-host.git
+ git clone https://github.com/Salmandabbakuti/hlf-twohost.git
  
  cd hlf-two-host
  
