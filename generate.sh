@@ -9,9 +9,9 @@ export FABRIC_CFG_PATH=${PWD}
 CHANNEL_NAME=mychannel
 CURRENT_DIR=$PWD
 cd crypto-config/peerOrganizations/org1.example.com/ca/
-PRIV_KEY=$(ls *_sk)
+PRIV_KEY1=$(ls *_sk)
 cd "$CURRENT_DIR"
-sed -i "s/${PRIV_KEY}/CA_PRIVATE_KEY/g" docker-compose.yml
+sed -i "s/${PRIV_KEY1}/CA_PRIVATE_KEY/g" docker-compose.yml
 
 
 # remove previous crypto material and config transactions
